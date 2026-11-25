@@ -1,0 +1,236 @@
+[
+  {
+    "schema": "org.gnome.desktop.background",
+    "key": "picture-uri",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.desktop.background",
+    "key": "picture-uri-dark",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.desktop.background",
+    "key": "picture-options",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.desktop.interface",
+    "key": "color-scheme",
+    "path": null,
+    "old": "'prefer-dark'"
+  },
+  {
+    "schema": "org.gnome.desktop.interface",
+    "key": "accent-color",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.desktop.interface",
+    "key": "gtk-theme",
+    "path": null,
+    "old": "'Yaru-dark'"
+  },
+  {
+    "schema": "org.gnome.desktop.interface",
+    "key": "icon-theme",
+    "path": null,
+    "old": "'Yaru-dark'"
+  },
+  {
+    "schema": "org.gnome.desktop.interface",
+    "key": "enable-animations",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.desktop.interface",
+    "key": "clock-show-weekday",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "dock-position",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "extend-height",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "dash-max-icon-size",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "dock-fixed",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "autohide",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "intellihide",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "transparency-mode",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "background-opacity",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "custom-background-color",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "background-color",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "custom-theme-shrink",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "show-trash",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "show-mounts",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "animation-time",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "custom-theme-customize-running-dots",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.dash-to-dock",
+    "key": "custom-theme-running-dots-color",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell.extensions.ding",
+    "key": "show-home",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "key": "profile-uuids",
+    "path": null,
+    "old": "['94c3b01d1a07f87e5208edd46af267f6']"
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "key": "default-profile-uuid",
+    "path": null,
+    "old": "'94c3b01d1a07f87e5208edd46af267f6'"
+  },
+  {
+    "schema": "org.gnome.Ptyxis.Profile",
+    "key": "label",
+    "path": "/org/gnome/Ptyxis/Profiles/74f04bfb-eadb-4f21-9f3d-a3d17f245885/",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis.Profile",
+    "key": "palette",
+    "path": "/org/gnome/Ptyxis/Profiles/74f04bfb-eadb-4f21-9f3d-a3d17f245885/",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis.Profile",
+    "key": "opacity",
+    "path": "/org/gnome/Ptyxis/Profiles/74f04bfb-eadb-4f21-9f3d-a3d17f245885/",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "key": "audible-bell",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell",
+    "key": "enabled-extensions",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.shell",
+    "key": "disabled-extensions",
+    "path": null,
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "path": null,
+    "key": "use-system-font",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "path": null,
+    "key": "font-name",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "path": null,
+    "key": "cursor-shape",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "path": null,
+    "key": "cursor-blink-mode",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis.Profile",
+    "path": "/org/gnome/Ptyxis/Profiles/74f04bfb-eadb-4f21-9f3d-a3d17f245885/",
+    "key": "cell-height-scale",
+    "old": null
+  }
+]

@@ -1,0 +1,13 @@
+User-installed extensions captured in this snapshot:
+
+Lavender App Center — lavender-app-center@soso.local (enabled)
+Lavender Haven — lavender-haven@soso.local (enabled)
+Lavender Panel Islands — lavender-panel@soso.local (enabled)
+Lavender Desktop Player — lavender-player@soso.local (enabled)
+
+Enabled extensions recorded in GNOME settings:
+- lavender-app-center@soso.local
+- lavender-haven@soso.local
+- lavender-panel@soso.local
+- lavender-player@soso.local
+- ubuntu-dock@ubuntu.com

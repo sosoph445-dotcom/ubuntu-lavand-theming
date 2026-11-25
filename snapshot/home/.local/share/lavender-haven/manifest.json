@@ -1,0 +1,21 @@
+{
+  ".config/gtk-3.0/gtk.css": false,
+  ".config/gtk-4.0/gtk.css": false,
+  ".local/share/themes/Lavender-Haven/index.theme": false,
+  ".local/share/themes/Lavender-Haven/gtk-3.0/gtk.css": false,
+  ".local/share/icons/Lavender-Haven/index.theme": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder-open.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/user-home.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder-documents.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder-download.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder-music.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder-pictures.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder-videos.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder-templates.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder-publicshare.svg": false,
+  ".local/share/icons/Lavender-Haven/scalable/places/folder-desktop.svg": false,
+  ".local/share/org.gnome.Ptyxis/palettes/lavender-haven.palette": false,
+  ".config/autostart/lavender-haven.desktop": false,
+  ".local/share/applications/lavender-haven.desktop": false
+}

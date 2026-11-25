@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Apply Lavender Haven
+Comment=Apply your cozy lavender desktop
+Exec=/usr/bin/python3 /home/soso/.local/share/lavender-haven/apply.py --force
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Categories=Settings;

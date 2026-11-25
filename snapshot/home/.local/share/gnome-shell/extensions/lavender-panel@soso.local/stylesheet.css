@@ -1,0 +1,86 @@
+/* Scope all styling to this user's enabled extension. */
+#panel.lavender-panel-islands,
+#panel.lavender-panel-islands:overview {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+#panel.lavender-panel-islands .panel-button {
+    background-color: rgba(33, 30, 41, 0.88);
+    background-image: none;
+    color: #e6dfee;
+    border: 1px solid rgba(185, 160, 221, 0.35);
+    border-radius: 14px;
+    margin: 2px 3px;
+    padding: 0 10px;
+    box-shadow: none;
+    transition-duration: 180ms;
+}
+
+#panel.lavender-panel-islands .panel-button:hover,
+#panel.lavender-panel-islands .panel-button:focus,
+#panel.lavender-panel-islands .panel-button:active,
+#panel.lavender-panel-islands .panel-button:checked {
+    background-color: rgba(50, 43, 61, 0.96);
+    color: #d3bcef;
+    border-color: rgba(185, 160, 221, 0.45);
+    box-shadow: none;
+}
+
+/* The clock already has a nested pill in GNOME's default theme. */
+#panel.lavender-panel-islands .clock-display .clock {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+/* Notification banners and the clock's notification/calendar popover. */
+.datemenu-popover {
+    background-color: #27222f;
+    color: #eee6f5;
+    border: 1px solid rgba(185, 160, 221, 0.35);
+}
+
+.message-view .message,
+.notification-banner {
+    background-color: #3b3246;
+    color: #f0e9f6;
+    border: 1px solid rgba(185, 160, 221, 0.26);
+}
+.message-view .message:second-in-stack { background-color: #352d40; }
+.message-view .message:lower-in-stack { background-color: #302938; }
+.message .message-header,
+.message .message-header .message-header-content .event-time {
+    color: #c5b1d7;
+}
+.message .message-header .message-expand-button,
+.message .message-header .message-close-button,
+.message-notification-group .message-collapse-button,
+.message-list-controls .message-list-clear-button,
+.notification-banner .message-action-bin StButton,
+.datemenu-popover .events-button,
+.datemenu-popover .world-clocks-button {
+    background-color: #51445f;
+    color: #eee6f5;
+}
+.message .message-header .message-expand-button:hover,
+.message .message-header .message-close-button:hover,
+.message-notification-group .message-collapse-button:hover,
+.message-list-controls .message-list-clear-button:hover,
+.notification-banner .message-action-bin StButton:hover,
+.datemenu-popover .events-button:hover,
+.datemenu-popover .world-clocks-button:hover {
+    background-color: #685578;
+}
+.datemenu-popover .calendar .calendar-day.calendar-today {
+    background-color: #a77bd0;
+    color: #21172b !important;
+}
+.datemenu-popover .events-title,
+.datemenu-popover .event-placeholder,
+.datemenu-popover .world-clocks-header {
+    color: #c5b1d7;
+}

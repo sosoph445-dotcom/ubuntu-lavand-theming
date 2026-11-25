@@ -1,0 +1,58 @@
+# Lavender Haven — current user's interactive Bash theme.
+[[ $- == *i* && ${TERM:-dumb} != dumb ]] || return
+
+__lavender_haven_prompt() {
+    local last_status=$?
+    local branch='' changes=''
+    __lh_git=''
+    __lh_status=''
+    if (( last_status != 0 )); then
+        printf -v __lh_status ' %s' "$last_status"
+    fi
+    if command -v git >/dev/null 2>&1; then
+        branch=$(git symbolic-ref --quiet --short HEAD 2>/dev/null) ||
+            branch=$(git rev-parse --short HEAD 2>/dev/null) || branch=''
+        if [[ -n $branch ]]; then
+            changes=$(GIT_OPTIONAL_LOCKS=0 git status --porcelain --untracked-files=no 2>/dev/null)
+            __lh_git=" · ${branch}"
+            [[ -z $changes ]] || __lh_git+=' *'
+        fi
+    fi
+    # \[ and \] keep Readline's cursor accounting correct on wrapped lines.
+    # Git text is expanded as data, never evaluated as prompt code.
+    PS1='\n\[\e[38;2;185;160;221m\]╭─ \u\[\e[38;2;113;101;127m\] · \[\e[38;2;230;223;238m\]\w\[\e[38;2;169;189;160m\]${__lh_git}\[\e[38;2;217;147;156m\]${__lh_status}\n\[\e[38;2;185;160;221m\]╰─\$\[\e[0m\] '
+    return "$last_status"
+}
+
+# Preserve existing prompt hooks, including terminal integration hooks.
+if [[ $(declare -p PROMPT_COMMAND 2>/dev/null) == 'declare -a '* ]]; then
+    if [[ " ${PROMPT_COMMAND[*]} " != *'__lavender_haven_prompt'* ]]; then
+        PROMPT_COMMAND=(__lavender_haven_prompt "${PROMPT_COMMAND[@]}")
+    fi
+elif [[ ${PROMPT_COMMAND:-} != *'__lavender_haven_prompt'* ]]; then
+    if [[ -n ${PROMPT_COMMAND:-} ]]; then
+        PROMPT_COMMAND=(__lavender_haven_prompt "$PROMPT_COMMAND")
+    else
+        PROMPT_COMMAND=(__lavender_haven_prompt)
+    fi
+fi
+
+# Colors follow the terminal palette: lavender directories, sage executables,
+# mist-blue links, amber archives, and rose errors.
+export LS_COLORS='rs=0:di=01;35:ln=36:mh=0:pi=33:so=35:do=35:bd=33:cd=33:or=01;31:mi=31:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=32:*.tar=33:*.gz=33:*.xz=33:*.bz2=33:*.zst=33:*.zip=33:*.7z=33:*.png=36:*.jpg=36:*.jpeg=36:*.webp=36:*.svg=36:*.mp4=36:*.mkv=36:*.mp3=32:*.flac=32:*.ogg=32:*.md=37:*.pdf=37'
+export GREP_COLORS='ms=01;35:mc=01;35:sl=:cx=:fn=36:ln=32:bn=32:se=90'
+export GCC_COLORS='error=01;31:warning=01;33:note=01;36:caret=01;35:locus=01:quote=01'
+export LESS_TERMCAP_md=$'\e[1;35m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[36m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[30;45m'
+export LESS_TERMCAP_se=$'\e[0m'
+if [[ -t 0 ]]; then
+    bind 'set colored-stats on'
+    bind 'set colored-completion-prefix on'
+    bind 'set visible-stats on'
+    bind 'set mark-symlinked-directories on'
+    bind 'set menu-complete-display-prefix on'
+    bind 'set show-all-if-ambiguous on'
+fi

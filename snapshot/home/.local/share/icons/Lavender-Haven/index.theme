@@ -1,0 +1,11 @@
+[Icon Theme]
+Name=Lavender Haven
+Comment=Lavender folders with Yaru application icons
+Inherits=Yaru-dark,Adwaita,hicolor
+Directories=scalable/places
+[scalable/places]
+Size=48
+Type=Scalable
+MinSize=16
+MaxSize=512
+Context=Places

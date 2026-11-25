@@ -1,0 +1,14 @@
+/* Lavender Haven — user-local palette */
+@define-color accent_bg_color #ac94cf;
+@define-color accent_fg_color #211e29;
+@define-color accent_color #c6afe7;
+@define-color theme_selected_bg_color #ac94cf;
+@define-color theme_selected_fg_color #211e29;
+@define-color window_bg_color #211e29;
+@define-color window_fg_color #e6dfee;
+@define-color view_bg_color #1c1922;
+@define-color view_fg_color #e6dfee;
+@define-color headerbar_bg_color #292431;
+@define-color card_bg_color #302a39;
+@define-color sidebar_bg_color #27222f;
+selection { background-color: #ac94cf; color: #211e29; }

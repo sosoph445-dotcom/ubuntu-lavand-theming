@@ -1,0 +1,18 @@
+.lavender-player-button {
+    color: #d3bcef;
+    padding: 6px;
+    border-radius: 12px;
+    background-color: transparent;
+    transition-duration: 180ms;
+}
+
+.lavender-player-button:hover, .lavender-player-button:focus {
+    color: #f2eaff;
+    background-color: rgba(185, 160, 221, 0.20);
+}
+
+.lavender-player-button:active {
+    color: #ffffff;
+    background-color: rgba(185, 160, 221, 0.36);
+    transition-duration: 90ms;
+}

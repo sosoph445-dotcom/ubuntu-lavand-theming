@@ -1,0 +1,10 @@
+{
+  "uuid": "lavender-player@soso.local",
+  "name": "Lavender Desktop Player",
+  "description": "Desktop media controls for MPRIS players",
+  "shell-version": [
+    "50"
+  ],
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.lavender-player"
+}

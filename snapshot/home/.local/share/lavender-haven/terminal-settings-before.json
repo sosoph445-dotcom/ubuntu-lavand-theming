@@ -1,0 +1,50 @@
+[
+  {
+    "schema": "org.gnome.Ptyxis",
+    "path": null,
+    "key": "use-system-font",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "path": null,
+    "key": "font-name",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "path": null,
+    "key": "cursor-shape",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "path": null,
+    "key": "cursor-blink-mode",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis",
+    "path": null,
+    "key": "audible-bell",
+    "old": null
+  },
+  {
+    "schema": "org.gnome.Ptyxis.Profile",
+    "path": "/org/gnome/Ptyxis/Profiles/74f04bfb-eadb-4f21-9f3d-a3d17f245885/",
+    "key": "palette",
+    "old": "'lavender-haven'"
+  },
+  {
+    "schema": "org.gnome.Ptyxis.Profile",
+    "path": "/org/gnome/Ptyxis/Profiles/74f04bfb-eadb-4f21-9f3d-a3d17f245885/",
+    "key": "opacity",
+    "old": "0.94999999999999996"
+  },
+  {
+    "schema": "org.gnome.Ptyxis.Profile",
+    "path": "/org/gnome/Ptyxis/Profiles/74f04bfb-eadb-4f21-9f3d-a3d17f245885/",
+    "key": "cell-height-scale",
+    "old": null
+  }
+]
